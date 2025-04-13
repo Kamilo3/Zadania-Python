@@ -1,4 +1,4 @@
-Repozytorium zawiera kolekcję trzech prostych programów napisanych w języku Python, służących jako przykłady podstawowych funkcjonalności programistycznych.
+Repozytorium zawiera kolekcję trzech programów napisanych w języku Python, służących jako przykłady podstawowych funkcjonalności programistycznych.
 
 Zawartość repozytorium
 
