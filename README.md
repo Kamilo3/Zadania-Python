@@ -2,7 +2,7 @@ Repozytorium zawiera kolekcję trzech prostych programów napisanych w języku P
 
 Zawartość repozytorium
 
-1.Prosty kalkulator dwóch liczb
+1. Prosty kalkulator dwóch liczb
 Kalkulator wykonujący podstawowe operacje matematyczne na dwóch liczbach.
 
 - Obsługiwane operacje: dodawanie, odejmowanie, mnożenie, dzielenie
