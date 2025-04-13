@@ -1,0 +1,29 @@
+def oblicz_srednia_ocen():
+    while True:
+        try:
+            liczba_ocen = int(input("Podaj liczbę ocen: "))
+            if liczba_ocen > 0:
+                break
+            else:
+                print("Błąd: liczba ocen musi być dodatnia!")
+        except ValueError:
+            print("Błąd: podano nieprawidłową liczbę!")
+
+    oceny = []
+    for i in range(liczba_ocen):
+        while True:
+            try:
+                ocena = int(input(f"Podaj ocenę {i+1} (1-6): "))
+                if 1 <= ocena <= 6:
+                    oceny.append(ocena)
+                    break
+                else:
+                    print("Błąd: ocena musi być w zakresie 1-6!")
+            except ValueError:
+                print("Błąd: podano nieprawidłową ocenę!")
+
+    srednia = sum(oceny) / liczba_ocen
+    print(f"Średnia: {srednia:.2f}")
+    print("Uczeń zdał." if srednia >= 3.0 else "Uczeń nie zdał.")
+
+oblicz_srednia_ocen()

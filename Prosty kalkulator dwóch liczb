@@ -1,0 +1,35 @@
+def prosty_kalkulator():
+    
+    liczba1 = float(input("Podaj pierwszą liczbę: "))
+    liczba2 = float(input("Podaj drugą liczbę: "))
+
+    print("Dostępne operacje:")
+    print("+ : dodawanie")
+    print("- : odejmowanie")
+    print("* : mnożenie")
+    print("/ : dzielenie")
+
+    operacja = input("Wybierz operację (+, -, *, /): ")
+
+    if operacja == "+":
+        wynik = liczba1 + liczba2
+    elif operacja == "-":
+        wynik = liczba1 - liczba2
+    elif operacja == "*":
+        wynik = liczba1 * liczba2
+    elif operacja == "/":
+        if liczba2 != 0:
+            wynik = liczba1 / liczba2
+        else:
+            print("Błąd: nie można dzielić przez zero!")
+            return
+    else:
+        print("Błąd: niepoprawna operacja!")
+        return
+
+    if wynik.is_integer():
+        print(f"Wynik: {int(wynik)}")
+    else:
+        print(f"Wynik: {wynik}")
+
+prosty_kalkulator()
