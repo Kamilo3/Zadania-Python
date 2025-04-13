@@ -1,4 +1,3 @@
-Zadania-Python
 Repozytorium zawiera kolekcję trzech prostych programów napisanych w języku Python, służących jako przykłady podstawowych funkcjonalności programistycznych.
 Zawartość repozytorium
 1. Konwerter temperatur (Celsjusz ↔ Fahrenheit)
