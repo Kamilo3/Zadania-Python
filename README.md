@@ -3,6 +3,7 @@ Repozytorium zawiera kolekcję trzech prostych programów napisanych w języku P
 Zawartość repozytorium
 
 1. Prosty kalkulator dwóch liczb
+
 Kalkulator wykonujący podstawowe operacje matematyczne na dwóch liczbach.
 
 - Obsługiwane operacje: dodawanie, odejmowanie, mnożenie, dzielenie
@@ -10,6 +11,7 @@ Kalkulator wykonujący podstawowe operacje matematyczne na dwóch liczbach.
 - Rozpoznawanie wyników całkowitych i zmiennoprzecinkowych
 
 2. Konwerter temperatur (Celsjusz ↔ Fahrenheit)
+
 Program umożliwiający konwersję temperatury między stopniami Celsjusza a Fahrenheita.
 
 - Wbudowana walidacja danych wejściowych
@@ -17,6 +19,7 @@ Program umożliwiający konwersję temperatury między stopniami Celsjusza a Fah
 - Intuicyjny interfejs konsolowy z wyborem kierunku konwersji
 
 3. Średnia ocen ucznia
+
 Program obliczający średnią ocen ucznia oraz określający, czy uczeń zdał.
 
 - Walidacja wprowadzanych ocen (zakres 1-6)
